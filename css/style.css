@@ -1,0 +1,112 @@
+body {
+  background: #FF86CB;
+}
+
+header {
+  background: rgba(255, 137, 195, 0.87);
+  font-size: 5vw;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(255, 185, 217, 0.87);
+  border-radius: 3dvw;
+  margin-bottom: 1vw;
+  padding: 1vw;
+}
+
+.kitty {
+  float: right;
+  width: 50%;
+  font-size: 3vw;
+}
+
+.image {
+  margin-right: 20px;
+  padding: 5px;
+}
+
+.image_reverse {
+  margin-left: 2dvw;
+}
+
+.kuromi {
+  float: right;
+}
+
+.container_reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #c8e9f8;
+  border-radius: 3dvw;
+  margin-bottom: 1vw;
+}
+
+.kuromi_text {
+  float: left;
+  width: 50%;
+  font-size: 3vw;
+}
+
+
+.keropy_text {
+  float: right;
+  width: 50%;
+  font-size: 3vw;
+}
+
+img:hover {
+  border: 2px solid #f61975;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+li {
+  display: inline;
+  margin-right: 1dvw;
+  font-size: 3vw;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+img:active {
+  border: 2px solid crimson;
+}
+
+.icon {
+  width: 10vw;
+  height: 100%;
+}
+
+
+nav a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-family: 'Comic Sans MS', cursive;
+  background-color: #FF69B4;
+  padding: 1dvw 1dvw;
+  border-radius: 5px;
+}
+
+nav {
+  border-radius: 3dvw;
+  padding: 2dvw 4dvw;
+  box-shadow: 0 0 15px rgb(255, 255, 255);
+}
+
+img {
+  width: 40%;
+}
+
